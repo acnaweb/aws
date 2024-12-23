@@ -1,0 +1,18 @@
+@startmindmap
+
+title "AWS - Free Tier"
+footer Disponível em: https://github.com/acnaweb/aws
+
+*[#F8F8FF]  Free Tier
+
+**[#LightGray] Capabilities
+
+***_ VM: cores + memory
+
+left side
+
+**[#LightGray] (DVM) Dedicated VM Hosts
+
+***_ VM on a Physical Server
+
+@endmindmap

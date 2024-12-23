@@ -1,0 +1,45 @@
+@startmindmap
+
+title "AWS - Cloud Computing"
+footer Disponível em: https://github.com/acnaweb/aws
+
+*[#F8F8FF] Cloud Computing
+
+**[#LightGray] Historic
+
+*** Before
+****_ Server room
+****_ You
+
+*** After
+****_ Data Centers
+****_ Provider
+****_ Security, energy, infra
+
+**[#LightGray] Advantages
+
+***_ Cost reduce
+***_ Maintenance
+***_ Storage
+***_ Global scale
+***_ Performance
+***_ Velocity to startup
+***_ Produtivity
+***_ Security
+***_ Flexibility (remote work)
+
+left side
+
+**[#LightGray] Service Type
+
+***_ SaaS -App/Software Service
+***_ PaaS - Rent software servers/VMs/Storages
+***_ IaaS - Rent hardware servers/VMs/Storages
+
+**[#LightGray] Cloud Type
+
+***_ Public - AWS, Azure, GCP, OCI (shared resources)
+***_ Private - Banks/Governments (exclusive resources)
+***_ Hibrid - Public + Private - (newtwork connected)
+
+@endmindmap

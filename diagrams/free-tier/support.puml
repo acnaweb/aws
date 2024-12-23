@@ -1,0 +1,28 @@
+@startmindmap
+
+title "AWS - Support"
+footer Disponível em: https://github.com/acnaweb/aws
+
+*[#F8F8FF] Support
+
+**[#LightGray] Developer
+***_ Business Time Support
+***_ SLA: < 24h < 12h System
+***_ Doubts: general
+
+**[#LightGray] Business
+***_ 24x7
+***_ IAM
+***_ Slack
+***_ SLA: < 24h < 4h System < 1h Inactive
+***_ Doubts: use case
+
+**[#LightGray] Enterprise on-ramp
+***_ SLA: < 24h < 4h System < 1h Inactive < 30min
+***_ Doubts: 1 analysis by year
+
+**[#LightGray] Enterprise
+***_ SLA: < 24h < 4h System < 1h Inactive < 15min
+***_ Doubts: 1 analysis anytime
+
+@endmindmap

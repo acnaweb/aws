@@ -1,0 +1,79 @@
+@startmindmap
+
+title "AWS - Network"
+footer Disponível em: https://github.com/acnaweb/aws
+
+*[#F8F8FF] Network
+
+**[#LightGray] VPC
+
+***[#LightGray] Features
+****_ Region < VPC 
+****_ AZ < Subnet < Instances
+****_ AZ = 6
+****_ CIDR IPv4 /16
+
+***[#LightGray] Internet Gateway
+****_ 0.0.0.0/0 
+
+***[#LightGray] Subnets
+****_ 172.31.16.0/20 = 4091 IPs
+****_ 172.31.67.0/20 = 4091 IPs
+
+***[#LightGray] Route Table
+****_ 172.31.0.0/16 Todas as subnets da VPC
+****_ IGW
+
+***[#LightGray] ACL (Firewall Subnet)
+****_ ACL -> Subnet
+
+***[#LightGray] Security Group (Firewall Instance)
+****_ Security Group -> Instance
+
+***[#LightGray] VPC Peering
+****_ Connect VPCs
+***_ #VPC = 2
+
+***[#LightGray] VPC Endpoints
+****_ Problema: Connect to Service using Private
+****_ Gateway: S3, DynamoDB
+****_ Interface: others
+
+***[#LightGray] VPC Flow Logs
+****_ Check traffic 
+****_ Trobleshoot 
+
+left side
+
+**[#LightGray] VPN
+
+***[#LightGray] VPN Gateway
+****_ Customer Gateway <Internet> Virtual Private Gateway
+
+***[#LightGray] VPN Client
+****_ Remote user
+****_ Software: AWS Client VPN
+****_ Connect: VPN Gateway
+
+***[#LightGray] Site to Site VPN
+****_ Enterprise
+****_ Link Internet Trusted
+****_ Link Internet Dedicated
+
+**[#LightGray] AWS Private Link
+***_ UC: Third software at AWS Account
+***_ Connect AWS Accounts
+***_ Reduce VPC Peering (scalable)
+***_ ALB <Private Link> ENI
+
+**[#LightGray] AWS Direct Connect
+***_ UC: Dedicated link Enterprise <> AWS
+
+**[#LightGray] AWS Transit Gateway
+***_ UC: Graph VPCs
+***_ #VPC > 2
+***_ Hub and Spoke (Star schema)
+
+
+
+@endmindmap
