@@ -1,0 +1,46 @@
+@startmindmap
+
+title "AWS - IAM"
+footer Disponível em: https://github.com/acnaweb/aws
+
+*[#F8F8FF] IAM
+
+**[#LightGray] Users
+***_ x
+
+**[#LightGray] Groups
+***_ To users
+***_ Access services (policies)
+
+**[#LightGray] Roles
+***_ To services
+
+**[#LightGray] Policies
+***_ Effect (At Actions): Allow/Denny
+***_ Action (What endpoints GET/POST): On service
+***_ Resource (Who will Consumer): users/groups
+***_ Used on groups | users | organizations
+***_ Json
+
+**[#LightGray] MFA
+***_ Increase security
+***_ 30 secs
+***_ Mobile
+***_ 6 digits
+
+**[#LightGray] Organizations (OU)
+***_ Sub Accounts (UF, depto, customer)
+***_ FinOps
+***_ Connectivity
+***_ Policies to Organizations
+
+
+**[#LightGray] Identity Center
+***_ SSO 
+***_ Depends on Organizations
+
+**[#LightGray] Passwords
+
+
+
+@endmindmap
